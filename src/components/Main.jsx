@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { showDate } from "../utils/show-date";
-import Form from "./Form";
-import "./main.css";
+import React, { useState } from 'react';
+import { showDate } from '../utils/show-date';
+import Form from './Form';
+import './main.css';
 
 export default function Main() {
-  const [date, setDate] = useState("");
+  const [date, setDate] = useState('');
   const [daysMonthsYears, setDaysMonthYears] = useState({
     days: 0,
     months: 0,
